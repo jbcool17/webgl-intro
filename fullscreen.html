@@ -9,8 +9,12 @@
     }
     .container {
       position: fixed;
-      top:0;
-      left: 10px;
+      width: 500px;
+      height: 200px;
+      top: 50%;
+      left: 50%;
+      margin-top: -100px; /* Negative half of height. */
+      margin-left: -250px; /* Negative half of width. */
       font-family: sans-serif;
     }
 
@@ -19,8 +23,9 @@
     }
     .info {
       text-align: center;
-      background: rgba(0,0,0, .2);
+      background: rgba(255,255,255, .5);
       padding: 10px;
+      border: 1px solid white;
     }
   </style>
 </head>
